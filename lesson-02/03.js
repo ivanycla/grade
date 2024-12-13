@@ -11,8 +11,4 @@ if (score >= 90 && score <= 100) {
     grade = 'D';
 } else if (score >= 0 && score < 50) {
     grade = 'F';
-} else {
-    grade = 'Invalid score';
 }
-
-console.log(grade); // Выводит 'C' для score = 70
